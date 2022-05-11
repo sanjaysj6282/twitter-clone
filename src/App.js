@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
 
       {/* Feed */}
-      {/* It appers beneath but to change rules->app.css */}
+      {/* It appers beneath but to change rules->app.css(to flex)*/}
       <Feed />
 
       {/* Widgets */}
