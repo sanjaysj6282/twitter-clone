@@ -1,12 +1,20 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
+import Feed from './Feed';
 
 function App() {
   return (
     <div className="App">
-      <h1>dsgd</h1>
+      {/* Sidebar */}
       <Sidebar />
+
+      {/* Feed */}
+      {/* It appers beneath but to change rules->app.css */}
+      <Feed />
+
+      {/* Widgets */}
+
     </div>
   );
 }
