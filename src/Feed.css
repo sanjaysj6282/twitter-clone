@@ -1,8 +1,15 @@
 .feed{
     flex: 0.4;
     border-right: 1px solid var(--twitter-background);
+    /* to fit content whatever may be size of post */
     min-width: fit-content;
+    /* Adding scrolling feature */
     overflow-y: scroll;
+}
+
+/* Hide scrollbar for chrome sfari and opera*/
+.feed::-webkit-scrollbar{
+    display: none;
 }
 
 .feed__header{
@@ -12,4 +19,9 @@
     z-index: 100;
     border: 1px var(--twitter-background);
     padding: 15px 20px;
+}
+
+.feed__header > h2{
+    font-size: 20px;
+    font-weight: 800;
 }
