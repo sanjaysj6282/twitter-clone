@@ -3,9 +3,10 @@ import React from 'react'
 import "./SidebarOption.css";
 
 // Icon is a component so it should be CAPS
-function SidebarOption({text, Icon}) {
+// Active component -> to set color blue unless changed
+function SidebarOption({ active, text, Icon}) {
   return (
-    <div className="sidebarOption">
+    <div className={`sidebarOption ${active && 'sidebarOption--active'}`}>
         <Icon />
         <h2>{text}</h2>
     </div>

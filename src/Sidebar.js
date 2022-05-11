@@ -18,7 +18,7 @@ function Sidebar() {
             {/* Twitter icon */}
             <TwitterIcon />
             {/* Sidebar option*/}
-            <SidebarOption Icon={HomeIcon} text="Home"/>
+            <SidebarOption active Icon={HomeIcon} text="Home"/>
             <SidebarOption Icon={SearchIcon} text="Explore"/>
             <SidebarOption Icon={NotificationsNoneIcon} text="Notifications"/>
             <SidebarOption Icon={MailOutlineIcon} text="Messages"/>
