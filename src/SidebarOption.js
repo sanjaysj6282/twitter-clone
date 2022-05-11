@@ -1,9 +1,12 @@
+// To add functionalities like hover to sidebar
 import React from 'react'
 
-function SidebarOption() {
+// Icon is a component so it should be CAPS
+function SidebarOption({text, Icon}) {
   return (
     <div className="sidebarOption">
-        <h2>This is a option</h2>
+        <Icon />
+        <h2>{text}</h2>
     </div>
   )
 }
